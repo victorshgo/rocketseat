@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botao">Adicionar</button>
+    </div>
+    <script>
+        var inputElement = document.querySelector("input[name=nome]");
+        var buttonElement = document.querySelector("button.botao");
+
+        buttonElement.onclick = function() {
+            alert(inputElement.value);
+        }
+
+        /*
+
+            É possível acessar um elemento de outras formas, tais como:
+
+            <input type="text" name="nome" id="nome" class="nome" />
+
+            var usingByID = document.getElementById("nome").value;
+            var usingByTagName = document.getElementsByTagName("input").value;
+            var usingByClassName = document.getElementsByClassName("nome").value;
+            
+        */
+    </script>
+</body>
+</html>

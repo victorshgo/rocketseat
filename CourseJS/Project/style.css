@@ -1,0 +1,23 @@
+#app {
+    width: 50%;
+    margin: 5% auto;
+    padding: 5%;
+    background-color: rgba(88, 75, 79, 0.1);
+}
+
+#app button {
+    margin: 2% auto;
+}
+
+#app ul {
+    margin: 8% auto;
+}
+
+#app ul li {
+    margin:5% auto;
+    font-weight: bold;
+}
+
+#app ul li a {
+    float: right;
+}

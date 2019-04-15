@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var nome = "Victor";
+        var idade = 22;
+        var peso = 85.0;
+        var humano =  true;
+
+        console.log('Olá, ' + nome + '!');
+        console.log('Sua idade é: ' + idade);
+        console.log('Seu peso é: ' + peso);
+        console.log('E você é um humano? ' + humano);
+        console.log('');
+        
+        var vetor = [nome, idade, peso, humano];
+
+        console.log('Olá, ' + vetor[0] + '!');
+        console.log('Sua idade é: ' + vetor[1]);
+        console.log('Seu peso é: ' + vetor[2]);
+        console.log('E você é um humano? ' + vetor[3]);
+        console.log('');
+
+        var objeto = {
+            nome: nome,
+            idade: idade,
+            peso: peso,
+            humano: humano
+        };
+
+        console.log('Olá, ' + objeto.nome + '!');
+        console.log('Sua idade é: ' + objeto.idade);
+        console.log('Seu peso é: ' + objeto.peso);
+        console.log('E você é um humano? ' + objeto.humano);
+        console.log('');
+    </script>
+</body>
+</html>

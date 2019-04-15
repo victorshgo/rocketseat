@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="app">
+        
+    </div>
+    <script>
+        var linkElement = document.createElement("a");
+        linkElement.setAttribute("href", "www.rocketseat.com.br");
+
+        var textElement = document.createTextNode("Acessar o site da RocketSeat!");
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.querySelector("div#app");
+        containerElement.appendChild(linkElement);
+    </script>
+</body>
+</html>

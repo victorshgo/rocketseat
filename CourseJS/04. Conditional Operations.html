@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        function pares(num) {
+            if(x % 2 == 0) {
+                return "É par!";
+            } else {
+                return "É ímpar!"
+            }
+        }
+
+        console.log('O número ' + num + ' é par ou ímpar? ' + pares(10));
+
+        function categoria(sexo) {
+            switch(sexo) {
+                case "M":
+                    return "Masculino";
+                case "F":
+                    return "Feminino";
+                default:
+                    return "Valor indefinido."
+            }
+        }
+
+        console.log('O seu gênero sexual é: ' + categoria("M"));
+    </script>
+</body>
+</html>
